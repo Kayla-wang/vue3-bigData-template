@@ -1,3 +1,8 @@
+<!--
+ 描述: 登录
+ 作者: kayla wang
+ 日期: 2024-08-14
+-->
 <script setup lang="ts">
 </script>
 
@@ -7,7 +12,7 @@
       :options="{
       background: {
           color: {
-              value: '#6495ED'
+              value: 'rgba(26, 33, 69, 1)'
           }
       },
       fpsLimit: 120,
@@ -40,10 +45,10 @@
       },
       particles: {
           color: {
-              value: '#ffffff'
+              value: 'rgba(173, 174, 179, 1)'
           },
           links: {
-              color: '#ffffff',
+              color: 'rgba(173, 174, 179, 1)',
               distance: 150,
               enable: true,
               opacity: 0.5,

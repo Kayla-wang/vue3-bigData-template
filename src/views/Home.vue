@@ -32,8 +32,17 @@
   }
   .mainBox {
     display: flex;
-    .left{
-
+    height: calc(100vh - 50px);
+    .left {
+      flex-grow:3;
+      border-right: 1px solid  #ffffff;
+    }
+    .center {
+      flex-grow:5;
+      border-right: 1px solid  #ffffff;
+    }
+    .right {
+      flex-grow:3;
     }
   }
 }
